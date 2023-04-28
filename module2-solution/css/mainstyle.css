@@ -1,0 +1,82 @@
+body{
+	background-color: #d3d3d3;
+	font-family: comic sans ms;
+}
+h1{
+			text-align: center;
+		}
+	h2{
+		text-align: center;
+		position: relative;
+		margin-top: 0px;
+		border-left: 2px solid black;
+		border-bottom:2px solid black;
+		margin-left: 60%;
+	}
+	div{
+		border: 2px solid black;
+		background-color: #ffb6c1;
+		height: 40%;
+		margin-top: 50px;
+	}
+p{
+	margin: 20px;
+	text-align: justify;
+}
+section{
+	text-align: center;
+
+}
+
+.hamburger h2{
+	background-color: purple;
+}
+.donut h2{
+	background-color: blue;
+}
+.noodles h2{
+	background-color: green;
+}
+
+
+@media ( max-width: 767px ){
+	.hamburger{
+		width:100%;
+	}
+	.donut{
+		width: 100%;
+	}
+	.noodles{
+		width: 100%;
+	}
+}
+@media ( min-width: 992px){
+	.hamburger{
+		float: left;
+		width:32%;
+	}
+	.donut{
+		float: left;
+		width: 32%;
+		margin-left: 1.5%
+	}
+	.noodles{
+		float: right;
+		width: 32%;
+	}
+}
+@media ( min-width: 768px) and (max-width: 991px){
+	.hamburger{
+		float: left;
+		width:48%;
+	}
+	.donut{
+		float:right;
+		width: 48%;
+		margin-left: 1.5%
+	}
+	.noodles{
+		float: right;
+		width: 100%;
+	}
+}
